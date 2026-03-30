@@ -1,0 +1,76 @@
+.box {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #67ed13;
+}
+
+/* 3b4f58 - cinza */
+
+h2::after {
+    content: "Verde";
+}
+
+@media (max-width: 1920px) {
+    .box {
+        background-color: rgb(207, 187, 0);
+        color: white;
+    }
+    h2::after {
+        content: "Amarelo";
+    }
+}
+
+@media (max-width: 1366px) {
+    .box {
+        background-color: purple;
+        color: white;
+    }
+    h2::after {
+        content: "Roxo";
+    }
+}
+
+@media (max-width: 1080px) {
+    .box {
+        background-color: rgb(179, 48, 48);
+        color: white;
+    }
+    h2::after {
+        content: "Vermelho";
+    }
+}
+
+@media (max-width: 1024px) {
+    .box {
+        background-color: rgb(250, 5, 115);
+        color: white;
+    }
+    h2::after {
+        content: "Rosa CHOQUE";
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        background-color: orange;
+        color: white;
+    }
+    h2::after {
+        content: "Laranja docinha";
+    }
+}
+
+@media (max-width: 420px) {
+    .box {
+        background-color: #3b4f58;
+        color: white;
+    }
+    h2::after {
+        content: "Cinza";
+    }
+}
