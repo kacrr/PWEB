@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, papel ou tesoura</title>
+    <script src="joquempo.js"></script>
+    <link rel="stylesheet" href="joquempo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Pedra, Papel ou Tesoura</h3>
+        <p>Escolha uma opção:</p>
+
+        <button onclick="jogar('pedra')">Pedra</button>
+        <button onclick="jogar('papel')">Papel</button>
+        <button onclick="jogar('tesoura')">Tesoura</button>
+        <div class="escolhas">
+            <p><strong>Você: </strong><span id="usuario"></span></p>
+            <p><strong>Computador: </strong><span id="computador"></span></p>
+        </div>
+        <h4 id="resultado"></h4>
+    </div>
+</body>
+
+</html>
