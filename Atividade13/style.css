@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7eec1;
+    padding-top: 50px;
+}
+
+img {
+    width: 500px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
